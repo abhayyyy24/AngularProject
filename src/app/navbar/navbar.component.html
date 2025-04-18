@@ -1,0 +1,15 @@
+<div class="navbar">
+    <div class="nav-left">
+        <img src="./logo.png" alt="logo" class="logo">
+        <p class="logo-text">evoqIT</p>
+    </div>
+
+    <div class="hamburger" (click)="toggleMenu()">
+        &#9776;
+    </div>
+    
+    <div class="nav-right" [class.show]="menuOpen">
+        <a href="/" class="navlink">Contact us</a>
+    </div>
+
+</div>
