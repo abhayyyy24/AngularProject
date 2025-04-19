@@ -1,0 +1,8 @@
+.footer{
+    bottom: 0;
+    padding:10px;
+    text-align: center;
+    background-color: #252525;
+    color:#fefaff;
+    font-family: "jetbrains mono", monospace;
+}

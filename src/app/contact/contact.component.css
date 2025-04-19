@@ -1,0 +1,35 @@
+.contact-section{
+    text-align: center;
+    height:50vh;
+    background-color: #355595;  
+}
+
+.heading{
+    padding-top:5vh;
+    font-size: 2.5rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+.tagline{
+    padding-top:3vh;
+    font-size: 1.1rem;
+    font-family: "jetbrains mono",monospace;
+}
+.info{
+    padding-top:10vh;
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mail{
+    text-decoration: none;
+    color:black;
+    font-family: "jetbrains mono",monospace;
+    font-size: 18px;
+}
+.logo{
+    height:35px;
+    width:auto
+}
