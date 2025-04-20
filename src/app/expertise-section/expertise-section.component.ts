@@ -8,5 +8,6 @@ import { CardComponent } from '../card/card.component';
   styleUrl: './expertise-section.component.css'
 })
 export class ExpertiseSectionComponent {
+title: any;
 
 }

@@ -1,6 +1,6 @@
 .card{
-    background-color: #ced5e4;
-    color:white;
+    background-color: #e7eaf0;
+    color:rgb(0, 0, 0);
     padding:20px;
     text-align:center;
     border-radius:10px;
@@ -11,4 +11,9 @@
 .icon{
     height:50px;
     width:auto;
+}
+.card-title{
+    color:black;
+    text-align:center;
+
 }
