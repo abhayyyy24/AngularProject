@@ -1,24 +1,11 @@
-<div class="expertise-section">
+<div class="expertise-section" id="expertise-section">
     <p class="heading">Our Expertise</p>
     <div class="card-list">
-        <card>
-            title="Web Development"
-            description="Building responsive and user-friendly websites using the latest technologies."
-            imageurl=""
-        </card>
-        <card>
-            title="Mobile Development"
-            description="Creating mobile applications for both iOS and Android platforms."
-            imageurl=""
-        </card>
-        <card>
-            title="Desktop Solutions"
-            description="Developing Powerful Desktop Applications"
-            imageurl=""
-        </card>
-        <card>
-            title="Ai intergration"
-            description="Enhancing your Business Capabilities with AI"
+        <card
+            *ngFor="let card of expertiseCards"
+            [title]="card.title"
+            [description]="card.description"
+            [imageUrl]="card.imageUrl" >
         </card>
     </div>
 </div>
